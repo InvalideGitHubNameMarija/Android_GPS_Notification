@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtViewLokacija"
+        android:layout_width="203dp"
+        android:layout_height="72dp"
+        android:layout_x="149dp"
+        android:layout_y="15dp"
+        android:text="Koordinate"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtViewLokacija2"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:layout_x="162dp"
+        android:layout_y="284dp"
+        android:text="Izbor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtViewKoordinate"
+        android:layout_width="212dp"
+        android:layout_height="88dp"
+        android:layout_x="89dp"
+        android:layout_y="99dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnPokreni"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_x="36dp"
+        android:layout_y="206dp"
+        android:text="Pokreni"
+        app:backgroundTint="#8BC34A" />
+
+    <Button
+        android:id="@+id/btnCentar"
+        android:layout_width="145dp"
+        android:layout_height="78dp"
+        android:layout_x="40dp"
+        android:layout_y="364dp"
+        android:onClick="prikaziCenar"
+        android:text="Centar grada"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnBolnica"
+        android:layout_width="145dp"
+        android:layout_height="78dp"
+        android:layout_x="215dp"
+        android:layout_y="365dp"
+        android:onClick="prikaziBolnice"
+        android:text="Bolnica"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnPolicija"
+        android:layout_width="145dp"
+        android:layout_height="78dp"
+        android:layout_x="40dp"
+        android:layout_y="524dp"
+        android:onClick="prikaziPoliciju"
+        android:text="Policija"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnSetaliste"
+        android:layout_width="145dp"
+        android:layout_height="78dp"
+        android:layout_x="214dp"
+        android:layout_y="526dp"
+        android:onClick="prikaziSetalista"
+        android:text="Setalista"
+        app:backgroundTint="#00BCD4" />
+
+    <Button
+        android:id="@+id/btnZaustavi"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_x="209dp"
+        android:layout_y="206dp"
+        android:text="Zaustavi"
+        app:backgroundTint="#FF5722" />
+
+</AbsoluteLayout>
